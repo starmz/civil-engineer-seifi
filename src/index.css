@@ -1,3 +1,8 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  font-family: serif, sans-serif;
+  font-height: 2.3rem;
+}
 html, #root, body {
   height: 100%;
   width: 100%;
@@ -5,11 +10,6 @@ html, #root, body {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
