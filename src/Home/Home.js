@@ -6,12 +6,15 @@ const Home = () => {
   const sectionStyle = {
     backgroundImage: `url(${Background})`,
     height: '100%',
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    opacity: 0.2
   }
 
   return (
     <section className="home">
-      <div className="home-background" style={ sectionStyle } />
+      <div className="home-background" style={ sectionStyle }>
+        test
+     </div>
     </section>
   )
 }
