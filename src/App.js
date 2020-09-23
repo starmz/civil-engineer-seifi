@@ -6,7 +6,6 @@ import AdminProfile from './Admin/AdminProfile'
 function App() {
   return (
     <div className="App">
-      <AdminProfile />
       <main>
         <Home /> 
       </main>
