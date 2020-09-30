@@ -1,0 +1,38 @@
+.works {
+    height: 100%;
+    padding: 2rem 0;
+    background-color: #000000; 
+    display: flex;
+    flex-direction: column;
+  }
+  .works__row {
+    height: 50%;
+    display: flex;
+  }
+  .item-large {
+    flex-grow: 2;
+    position: relative;
+
+  }
+  .item-small {
+    flex-grow: 1;
+    position: relative;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .works {
+      height: 400%;
+    }
+    .works__row {
+      height: 200%;
+      flex-direction: column;
+    }
+    .item-large {
+      order: 1;
+    }
+    .item-small {
+      order: 2;
+    }
+  }
+  

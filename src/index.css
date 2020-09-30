@@ -1,7 +1,7 @@
 *, ::after, ::before {
   box-sizing: border-box;
-  font-family: serif, sans-serif;
-  font-height: 2.3rem;
+  font-family: sans-serif, serif;
+  
 }
 html, #root, body {
   height: 100%;
